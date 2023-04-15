@@ -4,7 +4,12 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root {
+  --fonteprincipal: 'Open Sans', sans-serif;
 }
 
 ::-webkit-scrollbar {
@@ -31,30 +36,7 @@ h1 {
   color: white;
   margin-left: 20px;
   padding-top: 10px;
-}
-
-header a {
-  color: white;
-  text-decoration: none;
-}
-
-ul {
-  list-style-type: none;
-  margin-top: 18px;
-}
-
-li {
-  display: block;
-  background-color: #252525;
-  width: 100%;
-  text-align: left;
-  padding: 10px 20px;
-  border-bottom: 1px solid rgba(110, 110, 110, 0.30);
-}
-
-li:hover {
-  background-color: black;
-  transition-duration: .5s;
+  font: normal 500 2em var(--fonteprincipal);
 }
 
 #itens {
@@ -78,4 +60,387 @@ li:hover {
 .material-icons:hover {
   background-color: #1e1e1e;
   transition-duration: .2s;
+}
+
+.material-icons:active {
+  background-color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 16px;
+}
+
+li {
+  font: normal 300 .9em var(--fonteprincipal);
+  display: block;
+  background-color: #252525;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: left;
+  border-bottom: 1px solid rgba(110, 110, 110, 0.30);
+  cursor: pointer;
+}
+
+li:hover {
+  background-color: #1e1e1e;
+  transition-duration: .5s;
+}
+
+li:active {
+  background-color: black;
+  transition-duration: .1s;
+}
+
+header a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  padding: 0px 20px;
+}
+
+#esportes {
+  background-color: rgb(215, 253, 215);
+  padding-bottom: 20px;
+}
+
+#esportes > h1 {
+  color: black;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.botao {
+  display: block;
+  border: 1px solid black;
+  width: 90vw;
+  height: 250px;
+  margin: 20px auto;
+}
+
+#imagem-classico {
+  display: block;
+  background: black url('../imagens/seleção\ brasileira.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  float: left;
+}
+
+#noticia-classico {
+  display: block;
+  width: 50%;
+  height: 100%;
+  float: right;
+  padding: 10px;
+}
+
+#esportes h2 {
+  text-transform: uppercase;
+  font: normal 300 1em var(--fonteprincipal);
+  color: #606060;
+}
+
+#esportes small {
+  font: normal 300 .8em var(--fonteprincipal);
+  color: #606060;
+  margin-top: 10px;
+}
+
+#esportes p {
+  font: normal 500 1.1em var(--fonteprincipal);
+  margin-top: 10px;
+  color: #333333
+}
+
+#imagem-superbowl {
+  display: block;
+  background: black url('../imagens/superbowl.jpg') center center no-repeat;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+#noticia-superbowl {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+#imagem-nba {
+  display: block;
+  background: black url('../imagens/nba.jpg') center center no-repeat;
+  background-size: cover;
+  float: left;
+  height: 100%;
+  width: 50%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#noticia-nba {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+#imagem-f1 {
+  display: block;
+  background: black url('../imagens/f1.jpg') center center no-repeat;
+  background-size: cover;
+  float: left;
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#noticia-f1 {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+hr {
+  width: 90%;
+  margin: auto;
+}
+
+#economia > h1 {
+  color: black;
+  text-transform: uppercase;
+}
+
+#classico {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+#superbowl {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+#nba {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+#f1 {
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+}
+
+#economia {
+  background-color: rgb(255, 255, 207);
+  padding-bottom: 20px;
+}
+
+#dolar {
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+
+#imagem-dolar {
+  display: block;
+  background: black url('../imagens/dolar.jpg') center center no-repeat;
+  background-size: cover;
+  float: left;
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#noticia-dolar {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+#economia h2 {
+  font: normal 300 1em var(--fonteprincipal);
+  color: #606060;
+  text-transform: uppercase;
+}
+
+#economia small {
+  font: normal 300 .8em var(--fonteprincipal);
+  color: #606060;
+  margin-top: 10px;
+}
+
+#economia p {
+  font: normal 500 1.1em var(--fonteprincipal);
+  color: #333333;
+  margin-top: 20px;
+}
+
+#euro {
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+
+#imagem-euro {
+  display: block;
+  background: black url('../imagens/euro.jpg') center center no-repeat;
+  background-size: cover;
+  float: left;
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#noticia-euro {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+#petroleo {
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+}
+
+#imagem-petroleo {
+  display: block;
+  background: black url('../imagens/petroleo.jpg') center center no-repeat;
+  background-size: cover;
+  float: left;
+  width: 50%;
+  height: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+#noticia-petroleo {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+#entretenimento {
+  padding-bottom: 20px;
+  background-color: rgb(255, 223, 223);
+}
+
+#entretenimento h2 {
+  font: normal 300 1.5em var(--fonteprincipal);
+  color: #606060;
+  text-transform: uppercase;
+}
+
+#entretenimento small {
+  font: normal 300 .8em var(--fonteprincipal);
+  color: #606060;
+}
+
+#entretenimento p {
+  font: normal 500 1em var(--fonteprincipal);
+  color: #333333;
+  margin-top: 20px;
+}
+
+#entretenimento > h1 {
+  color: black;
+  text-transform: uppercase;
+}
+
+#shazam {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+
+#imagem-shazam {
+  display: block;
+  background: black url('../imagens/shazam.png') center center no-repeat;
+  background-size: cover;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+#noticia-shazam {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+#heroinas {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+
+#imagem-heroinas {
+  display: block;
+  background: black url('../imagens/heroinas.jpg') center center no-repeat;
+  background-size: cover;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+#noticia-heroinas {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+}
+
+#mulher-hulk {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  border: none;
+}
+
+#imagem-hulk {
+  display: block;
+  background: black url('../imagens/mulher-hulk-4.jpg') center center no-repeat;
+  background-size: cover;
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+#noticia-hulk {
+  display: block;
+  float: right;
+  width: 50%;
+  height: 100%;
+  padding: 10px;
 }
