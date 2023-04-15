@@ -35,8 +35,8 @@ header {
 h1 {
   color: white;
   margin-left: 20px;
-  padding-top: 10px;
-  font: normal 500 2em var(--fonteprincipal);
+  font: normal 500 1.5em var(--fonteprincipal);
+  line-height: 70px;
 }
 
 #itens {
