@@ -444,3 +444,13 @@ hr {
   height: 100%;
   padding: 10px;
 }
+
+#tecnologia {
+  background-color: rgb(166, 196, 255);
+  padding-bottom: 20px;
+}
+
+#tecnologia > h1 {
+  color: black;
+  text-transform: uppercase;
+}
