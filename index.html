@@ -10,11 +10,11 @@
   <link rel="stylesheet" href="estilos/first.css">
   <link rel="stylesheet" href="estilos/geral.css">
 </head>
-<body>
+<body onresize="mudouTela()">
   <main>
     <header>
       <h1>Meu portal de notícias</h1>
-      <span class="material-icons" onclick="acao()">menu</span>
+      <span id="burguer" class="material-icons" onclick="acao()">menu</span>
       <nav id="itens">
         <ul>
           <li id="link-esporte"><a href="#esportes">Esportes</a></li>

@@ -5,3 +5,11 @@ function acao() {
     itens.style.display = 'block'
   }
 }
+
+function mudouTela() {
+  if (window.innerWidth >= 992) {
+    itens.style.display = 'block'
+  } else {
+    itens.style.display = 'none'
+  }
+}
