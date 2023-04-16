@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  #esportes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+  }
+
+  #esportes > h1 {
+    width: 100%;
+  }
+
+  hr {
+    display: none;
+  }
+
+  .botao {
+    width: 45%;
+    height: 200px;
+  }
+
+  #esportes p {
+    font-size: .9em;
+  }
+
+  #noticia-classico > p {
+    font-size: .8em;
+  }
+
+  #economia {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #economia > h1 {
+    width: 100%;
+  }
+
+  #noticia-dolar > p {
+    font-size: .9em;
+  }
+
+  #noticia-euro > p {
+    font-size: .7em;
+    margin-top: 5px;
+  }
+
+  #noticia-petroleo > p {
+    font-size: .9em;
+  }
+
+  #entretenimento {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #entretenimento > h1 {
+    width: 100%;
+  }
+
+  #noticia-shazam > p {
+    margin-top: 10px;
+  }
+
+  #noticia-heroinas > p {
+    margin-top: 10px;
+    font-size: .9em;
+  }
+
+  #noticia-hulk > p {
+    margin-top: 10px;
+    font-size: .85em;
+  }
+
+  #tecnologia {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  #tecnologia > h1 {
+    width: 100%;
+  }
+
+  #noticia-alemanha > h2 {
+    font-size: .8em;
+  }
+
+  #noticia-alemanha > p {
+    font-size: .8em;
+  }
+
+  #noticia-celular > h2 {
+    font-size: .8em;
+  }
+
+  #noticia-celular > p {
+    font-size: .8em;
+    margin-top: 5px;
+  }
+
+  #noticia-iphone > h2 {
+    font-size: .9em;
+  }
+
+  #noticia-iphone > p {
+    font-size: .9em;
+  }
+
+  #noticia-chip > h2 {
+    font-size: .9em;
+  }
+
+  #noticia-chip > p {
+    font-size: .9em;
+  }
+}
+
+/* DESKTOP E GRANDES TELAS */
+@media screen and (min-width: 992px) {
+
+}
