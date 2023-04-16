@@ -4,11 +4,15 @@
 /* TABLET */
 @media screen and (min-width: 768px) and (max-width: 992px) {
   #esportes {
+    width: 100%;
+    margin: auto;
+  }
+
+  .quadro {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    width: 100%;
-    margin: auto;
   }
 
   #esportes > h1 {
@@ -127,9 +131,473 @@
   #noticia-chip > p {
     font-size: .9em;
   }
+
+  #tela2 {
+    display: none;
+  }
 }
 
 /* DESKTOP E GRANDES TELAS */
 @media screen and (min-width: 992px) {
+  .botao {
+    width: 24%;
+    height: 250px;
+  }
 
+  hr {
+    display: none;
+  }
+
+  .quadro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+  }
+
+  #esportes > h1 {
+    width: 100%;
+    padding-left: 30px;
+  }
+
+  #classico {
+    position: relative;
+  }
+
+  #imagem-classico {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    height: 80%;
+    border-radius: 10px;
+  }
+
+  #noticia-classico h2 {
+    position: absolute;
+    font-size: 1em;
+    left: 2%;
+    top: 2%;
+  }
+
+  #noticia-classico small {
+    display: none;
+  }
+
+  #noticia-classico p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  #superbowl {
+    position: relative;
+  }
+
+  #imagem-superbowl {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-superbowl h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-superbowl small {
+    display: none;
+  }
+
+  #noticia-superbowl p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  #nba {
+    position: relative;
+  }
+
+  #imagem-nba {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-nba h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-nba small {
+    display: none;
+  }
+
+  #noticia-nba > p {
+    font-size: .9em;
+    margin-top: 40%;
+  }
+
+  #f1 {
+    position: relative;
+  }
+
+  #imagem-f1 {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-f1 > h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    font-size: 1em;
+  }
+
+  #noticia-f1 > small {
+    display: none;
+  }
+
+  #noticia-f1 > p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  #economia .botao {
+    width: 30%;
+  }
+
+  #economia > h1 {
+    padding-left: 30px;
+  }
+
+  #dolar {
+    position: relative;
+  }
+
+  #imagem-dolar {
+    position: absolute;
+    bottom: 0;
+    height: 80%;
+    border-radius: 10px;
+  }
+
+  #noticia-dolar > h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-dolar > small {
+    display: none;
+  }
+
+  #noticia-dolar > p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  #euro {
+    position: relative;
+  }
+
+  #imagem-euro {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-euro > h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-euro > small {
+    display: none;
+  }
+
+  #noticia-euro > p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  #petroleo {
+    position: relative;
+  }
+
+  #imagem-petroleo {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-petroleo > h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-petroleo > small {
+    display: none;
+  }
+
+  #noticia-petroleo > p {
+    margin-top: 40px;
+    font-size: .9em;
+  }
+
+  #entretenimento > h1 {
+    padding-left: 30px;
+  }
+
+  #shazam {
+    position: relative;
+  }
+
+  #imagem-shazam {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-shazam > h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-shazam > small {
+    display: none;
+  }
+
+  #noticia-shazam > p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  #heroinas {
+    position: relative;
+  }
+
+  #imagem-heroinas {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-heroinas > h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-heroinas > small {
+    display: none;
+  }
+
+  #noticia-heroinas > p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  #mulher-hulk {
+    position: relative;
+  }
+
+  #imagem-hulk {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-hulk > h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-hulk > small {
+    display: none;
+  }
+
+  #noticia-hulk > p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  #entretenimento .botao {
+    width: 30%;
+  }
+
+  #tecnologia > h1 {
+    padding-left: 30px;
+  }
+
+  #alemanha {
+    position: relative;
+  }
+
+  #imagem-alemanha {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-alemanha > h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-alemanha > small {
+    display: none;
+  }
+
+  #noticia-alemanha > p {
+    margin-top: 40px;
+  }
+
+  #celular {
+    position: relative;
+  }
+
+  #imagem-celular {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-celular > h2 {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-celular > small {
+    display: none;
+  }
+
+  #noticia-celular > p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  #iphone {
+    position: relative;
+  }
+
+  #imagem-iphone {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-iphone > h2 {
+    position: absolute;
+    font-size: .9em;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-iphone > small {
+    display: none;
+  }
+
+  #noticia-iphone > p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  #chip {
+    position: relative;
+  }
+
+  #imagem-chip {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    border-radius: 10px;
+  }
+
+  #noticia-chip > h2 {
+    position: absolute;
+    font-size: .95em;
+    top: 2%;
+    left: 2%;
+  }
+
+  #noticia-chip > small {
+    display: none;
+  }
+
+  #noticia-chip > p {
+    font-size: .9em;
+    margin-top: 40px;
+  }
+
+  .quadro {
+    background-color: white;
+    border-radius: 10px;
+  }
+
+  .material-icons {
+    display: none;
+  }
+
+  #itens {
+    display: block;
+  }
+
+  nav {
+    background-color: #252525;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    padding: 0px 30px;
+    margin: 0px 5px;
+  }
+
+  #link-esporte {
+    margin-left: 10px;
+  }
+
+  #link-economia {
+    margin-left:-9px;
+  }
+
+  #link-entretenimento {
+    margin-left: -9px;
+  }
+
+  #link-tecnologia {
+    margin-left: -5px;
+  }
+
+  header > h1 {
+    text-align: center;
+  }
+
+  #tela {
+    display: none;
+  }
+
+  #tela2 {
+    display: block;
+  }
 }
