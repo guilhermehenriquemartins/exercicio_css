@@ -135,6 +135,14 @@
   #tela2 {
     display: none;
   }
+
+  #tela3 {
+    display: none;
+  }
+
+  #opcao {
+    display: none;
+  }
 }
 
 /* DESKTOP E GRANDES TELAS */
@@ -599,5 +607,13 @@
 
   #tela2 {
     display: block;
+  }
+
+  #tela3 {
+    display: none;
+  }
+
+  #opcao {
+    display: none;
   }
 }

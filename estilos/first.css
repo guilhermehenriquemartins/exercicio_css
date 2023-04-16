@@ -632,3 +632,14 @@ footer > p {
   font: normal 500 .8em var(--fonteprincipal);
   padding: 10px 20px;
 }
+
+#tela3 {
+  display: block;
+  width: 70%;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgb(0, 59, 123);
+  border-radius: 100px;
+  font: normal 500 .8em var(--fonteprincipal);
+  padding: 10px 20px;
+}
